@@ -1,0 +1,15 @@
+{
+    "name": "hugojunior/ci-base",
+    "description": "Base para projetos utilizando CodeIgniter, HMVC e autenticação.",
+    "authors": [
+        {
+            "name": "Hugo Júnior",
+            "email": "contato@hugojunior.com"
+        }
+    ],
+    "require": {
+    },
+    "config": {
+        "vendor-dir": "ci/application/vendor"
+    }
+}
