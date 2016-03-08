@@ -11,5 +11,7 @@
     },
     "config": {
         "vendor-dir": "ci/application/vendor"
+    },
+    "require-dev": {
     }
 }
