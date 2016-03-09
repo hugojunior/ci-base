@@ -2,6 +2,7 @@
 # Created by https://www.gitignore.io/api/bower,intellij,less,phpstorm,windows,osx,codeigniter,sass,grunt,composer,sublimetext,vagrant
 
 ### Bower ###
+public/assets/libs
 bower_components
 .bower-cache
 .bower-registry
