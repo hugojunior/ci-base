@@ -18,6 +18,8 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.6",
-    "AdminLTE": "admin-lte#^2.3.2"
+    "AdminLTE": "admin-lte#^2.3.2",
+    "font-awesome": "^4.5.0",
+    "Ionicons": "ionicons#^2.0.1"
   }
 }
