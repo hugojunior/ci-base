@@ -31,11 +31,11 @@ class Migration_Create_users extends CI_Migration {
                 'type'           => 'VARCHAR',
                 'constraint'     => '255'
             ),
-            'password_recover' => array(
+            'forgot_code' => array(
                 'type'           => 'VARCHAR',
                 'constraint'     => '32'
             ),
-            'activation_code' => array(
+            'activate_code' => array(
                 'type'           => 'VARCHAR',
                 'constraint'     => '32'
             ),

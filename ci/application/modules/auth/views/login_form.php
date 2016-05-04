@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Login</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link rel="stylesheet" href="assets/libs/AdminLTE/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/libs/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/libs/Ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/libs/AdminLTE/dist/css/AdminLTE.min.css">
-    <link rel="stylesheet" href="assets/libs/AdminLTE/plugins/iCheck/square/blue.css">
+    <link rel="stylesheet" href="<?=base_url();?>assets/libs/AdminLTE/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=base_url();?>assets/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?=base_url();?>assets/libs/Ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="<?=base_url();?>assets/libs/AdminLTE/dist/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="<?=base_url();?>assets/libs/AdminLTE/plugins/iCheck/square/blue.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -24,13 +24,13 @@
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <p class="login-box-msg">Faça login para acessar sua conta</p>
-        <form action="../../index2.html" method="post">
+        <form action="" method="post">
           <div class="form-group has-feedback">
-            <input type="text" class="form-control" placeholder="Login">
+            <input type="text" class="form-control" placeholder="Login" name="login">
             <span class="glyphicon glyphicon-user form-control-feedback"></span>
           </div>
           <div class="form-group has-feedback">
-            <input type="password" class="form-control" placeholder="Senha">
+            <input type="password" class="form-control" placeholder="Senha" name="password">
             <span class="glyphicon glyphicon-lock form-control-feedback"></span>
           </div>
           <div class="row">
@@ -47,13 +47,13 @@
           </div>
         </form>
         <hr>
-        <a href="#">Recuperar minha senha</a><br>
+        <a href="<?=base_url();?>auth/forgot">Recuperar minha senha</a><br>
       </div><!-- /.login-box-body -->
     </div><!-- /.login-box -->
 
-    <script src="assets/libs/AdminLTE/plugins/jQuery/jQuery-2.1.4.min.js"></script>
-    <script src="assets/libs/AdminLTE/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/libs/AdminLTE/plugins/iCheck/icheck.min.js"></script>
+    <script src="<?=base_url();?>assets/libs/AdminLTE/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+    <script src="<?=base_url();?>assets/libs/AdminLTE/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<?=base_url();?>assets/libs/AdminLTE/plugins/iCheck/icheck.min.js"></script>
     <script>
       $(function () {
         $('input').iCheck({
